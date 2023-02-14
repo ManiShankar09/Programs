@@ -1,0 +1,9 @@
+static void reverseInt(int num){
+        int reverse  = 0;
+        while(num != 0){
+            int remaainder = num % 10;
+            reverse = reverse * 10 + remaainder;
+            num = num / 10;
+        }
+        System.out.println(reverse);
+    }
