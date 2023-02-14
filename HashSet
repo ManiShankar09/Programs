@@ -1,0 +1,24 @@
+import java.util.HashSet;
+
+public class Hashsetexample {
+    public static void main(String[] args) {
+        HashSet<String> list = new HashSet<>();
+        //Adding elements into list........
+        list.add("Java");
+        list.add("Python");
+        list.add("Perl");
+        list.add("C");
+        list.add("cpp");
+        System.out.println("After adding the elements to the list " + list);
+        //Size of the list
+        System.out.println(list.size());
+
+        //Removing Elements from the list
+        list.remove("C");
+        list.remove("Perl");
+        System.out.println("Removing elements from the list "+ list);
+        //Size after removing
+        System.out.println(list.size());
+
+    }
+}
