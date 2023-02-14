@@ -1,0 +1,10 @@
+static void GCDm2(int num1, int num2){
+        ArrayList <Integer> list = new ArrayList<Integer>();
+        for(int i =1; i<= num1 && i <= num2; i++){
+            if(num1 % i == 0 && num2 % i == 0){
+                list.add(i);
+            }
+        }
+       System.out.println("The GCD of "+ ""+ num1 +" and"+" "+ num2 + " is" +" "+ Collections.max(list));
+
+    }
